@@ -25,11 +25,11 @@ In this task, you need to get a list of all organization machines and their oper
 
 - Run a SQL query to retrieve only the device_id and operating_system columns from the machines table.
 
-xxx
+![1545e65r86fiyurs65r86tgouh3](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/182c83e0-3917-4694-a92f-f028992471b3)
 
 How many rows were returned from the machines table? (You can view the number of rows at the bottom of the output.)
 
-   - 200
+   - [x] 200
    - 100
    - 250
    - 300
@@ -40,7 +40,7 @@ In this task, you need to obtain a list of all machines with the 'OS 2' operatin
 
    - Select all the records from the machines table with a value of 'OS 2' in the operating_system column. Replace the value X with the correct string:
 
-xxx
+![1545ar6t97ouaf3fgibecb8673](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/8956750f-c998-460d-93ff-495be2096a0a)
 
 >_Note: The <code>WHERE</code> clause allows you to filter the results returned by a query by returning only the records that satisfy the condition._
 How many machines in the database use the OS 2 operating system?
@@ -48,7 +48,7 @@ How many machines in the database use the OS 2 operating system?
    - 44
    - 200
    - 88
-   - 80
+   - [x] 80
 
 ## Task 3. List employees in specific departments
 
@@ -56,23 +56,23 @@ In this task, you need to retrieve a list of all the employees in the Finance an
 
    1. Filter the rows returned from department column in the employees table to include only employees from the 'Finance' department. Replace X with the appropriate column name and Y with the appropriate value to complete the filter:
 
-xxx
+![1545b044e75rf8iyfgk703r6t7g](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/d49ea117-cbee-45de-b6fe-e377a159ba4e)
 
 What is the employee_id of the first row returned?
 
    - 1001
-   - 1003
+   - [x] 1003
    - 1049
    - 1119
 
   2. Modify the previous query so that it returns employees who are in the 'Sales' department.
 
-xxx
+![15457af5t7rfiygkub3r76fg889a](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/c8777a2b-92d5-4da2-9e6d-a04245a04032)
 
 How many employees work in the Sales department?
 
    - 10
-   - 33
+   - [x] 33
    - 17
    - 42
 
@@ -84,14 +84,14 @@ A machine in 'South-109' has an issue. You need to determine which employee uses
 
 1. Write a query to identify which employee uses the office in 'South-109'. (The data must be returned from the office column in the employees table.)
 
-xxx
+![154547c586d886rt87tgouhbj2](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/624ab266-a91c-44f3-98be-44fe1042061b)
 
 Which of the following employees uses the computer with the issue?
 
-   - jhill
-   - jlansky
-   - nmitchell
-   - tsnow
+ - jhill
+ - [x] jlansky
+ - nmitchell
+ - tsnow
 
 Next, your team has determined that there is an issue with all the machines in the South building. Offices in the organization are named with the building name, a hyphen, and the office number in that building (for example, 'South-109').
 
@@ -99,11 +99,11 @@ Next, your team has determined that there is an issue with all the machines in t
 
 >_Note: The <code>LIKE</code> keyword in SQL performs simple string matches. The matching pattern may include the wildcard % to represent a string of any length. This wildcard <code>%</code> may be placed both before and after the targeted substring._
 
-xxx
+![1545096ce646t97youguiu89c2](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/a654796f-c89b-41f5-8aec-4aa9b27b34c1)
 
 Which department does the first employee listed in the South building belong to?
 
-  - Finance
+  - [x] Finance
   - Marketing
   - Sales
   - Information Technology
