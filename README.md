@@ -1,5 +1,5 @@
 # Filter a SQL Query
-## Lab Objective:
+## Lab Purpose:
 
 As a security analyst, the ability to make better queries to retrieve specific pieces of data can help you find the security-related information you need more efficiently.
 
@@ -10,9 +10,9 @@ MariaDB is a popular open source relational database that is compatible with MyS
 This activity provides you with a great opportunity to apply what you’ve learned and add filters to SQL queries.
 
 >_Note: The terms row and record are used interchangeably in this lab activity._
-## Lab Purpose
+## Lab Objective
 
-Our purpose in this lab is to get specific information about employees, their machines, and the departments they’re in. Your team needs this data to perform various tasks, such as running updates, posting a privacy notice in certain departments, and sending an alert to an employee with an issue on a machine.
+Our objective in this lab is to get specific information about employees, their machines, and the departments they’re in. Your team needs this data to perform various tasks, such as running updates, posting a privacy notice in certain departments, and sending an alert to an employee with an issue on a machine.
 
 As an analyst, we are responsible for finding the required information by querying a database. We’ll add filters to your queries to locate the information more quickly.
 
