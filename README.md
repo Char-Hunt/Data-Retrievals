@@ -9,7 +9,7 @@ MariaDB is a popular open source relational database that is compatible with MyS
 
 This activity provides you with a great opportunity to apply what you’ve learned and add filters to SQL queries.
 
-_>Note: The terms row and record are used interchangeably in this lab activity._
+>_Note: The terms row and record are used interchangeably in this lab activity._
 ## Lab Purpose
 
 Our purpose in this lab is to get specific information about employees, their machines, and the departments they’re in. Your team needs this data to perform various tasks, such as running updates, posting a privacy notice in certain departments, and sending an alert to an employee with an issue on a machine.
@@ -18,7 +18,7 @@ As an analyst, we are responsible for finding the required information by queryi
 
 Here’s how we’ll do this task: First, we’ll list all organization machines and their operating systems. Second, we’ll list all machines with the operating system OS 2. Third, we’ll list all the employees in the Finance and Sales departments. Fourth, you’ll obtain information about machines.
 
-_> Note: In this lab you’ll be working with the organization database and the tables it contains._
+>_Note: In this lab you’ll be working with the organization database and the tables it contains._
 ## Task 1. List all organization machines
 
 In this task, you need to get a list of all organization machines and their operating systems. The data is contained in the machines table. You’ll need to use the <code>SELECT</code> keyword to return specific columns.
@@ -42,7 +42,7 @@ In this task, you need to obtain a list of all machines with the 'OS 2' operatin
 
 xxx
 
-_> Note: The <code>WHERE</code> clause allows you to filter the results returned by a query by returning only the records that satisfy the condition._
+>_Note: The <code>WHERE</code> clause allows you to filter the results returned by a query by returning only the records that satisfy the condition._
 How many machines in the database use the OS 2 operating system?
 
    - 44
@@ -97,7 +97,7 @@ Next, your team has determined that there is an issue with all the machines in t
 
 2. Modify the query you used in the previous step so that it returns information on all the employees in the 'South' building. Use the <code>LIKE</code> operator with <code>%</code> in this query.
 
-_ > Note: The <code>LIKE</code> keyword in SQL performs simple string matches. The matching pattern may include the wildcard % to represent a string of any length. This wildcard <code>%</code> may be placed both before and after the targeted substring._
+>_Note: The <code>LIKE</code> keyword in SQL performs simple string matches. The matching pattern may include the wildcard % to represent a string of any length. This wildcard <code>%</code> may be placed both before and after the targeted substring._
 
 xxx
 
