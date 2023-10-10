@@ -14,14 +14,14 @@ This activity provides you with a great opportunity to apply what you’ve learn
 
 Our objective in this lab is to get specific information about employees, their machines, and their related departments. Your team needs this data to perform various tasks, such as running updates, posting a privacy notice in certain departments, and sending an alert to an employee with an issue on a machine.
 
-As an analyst, we are responsible for finding the required information by querying a database. We’ll add filters to your queries to locate the information more quickly.
+As analysts, we are responsible for finding the required information by querying a database. Iin this scenario we’ll add filters to your queries to locate the information more quickly.
 
-Here’s how we’ll do this task: First, you will need to list all organization machines and their operating systems. Second, we’ll list all machines with the operating system OS 2. Third, we’ll list all the employees in the Finance and Sales departments. Fourth, you’ll obtain information about machines.
+Here’s how we’ll do this task: First, you will need to list all organization machines and their operating systems. (Once this is dertermined you can narrow it down.) Second, we’ll list all machines with the operating system OS 2. Third, we’ll list all the employees in the Finance and Sales departments. Fourth, you’ll obtain information about the machines.
 
 >_Note: In this lab you’ll be working with the organization database and the tables it contains._
 ## Task 1. List all organization machines
 
-In this task, you need to get a list of all organization machines and their operating systems. The data is contained in the machines table. You’ll need to use the <code>SELECT</code> keyword to return specific columns.
+In this task, we needed to get a list of all organization machines and their operating systems. The data is contained in the machines table. You’ll need to use the <code>SELECT</code> keyword to return specific columns.
 
 - Run a SQL query to retrieve only the device_id and operating_system columns from the machines table.
 ![1545e65r86fiyurs65r86tgouh3_1](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/10a8958d-d894-43d7-9c44-6ae41841bf66)
@@ -50,7 +50,7 @@ How many machines in the database use the OS 2 operating system?
 
 ## Task 3. List employees in specific departments
 
-In this task, you need to retrieve a list of all the employees in the Finance and Sales departments to obtain their office numbers. A notice about handling confidential financial information will be posted to these offices.
+In this task, you need to retrieve a list of all the employees in the Finance and Sales departments to obtain their office numbers. A notice about proper handling of confidential financial information will be posted to these offices.
 
    1. Filter the rows returned from department column in the employees table to include only employees from the 'Finance' department. Replace X with the appropriate column name and Y with the appropriate value to complete the filter:
 ![1545b044e75rf8iyfgk703r6t7g_3](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/dccf37f7-b5fc-4454-b6a2-db17ab9c14fc)
