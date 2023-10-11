@@ -46,7 +46,8 @@ How many machines in the database use the OS 2 operating system?
 
 ## Task 3. List employees in specific departments
 
-In this task, I pulled a list of all the employees in the Finance and Sales departments to obtain their office numbers. A notice about confidential file handling (in this case financial information) will be posted to those offices. Here's how I did this:
+In this task, I pulled a list of all the employees in the Finance and Sales departments to obtain their office numbers. A notice about confidential file handling (in this case financial information) will be posted to those offices. I initially ran into problems isolating the two groups. but after modifiying the WHERE clause I was able to break it down.
+Here's how I did this:
 
    1. Filter the rows returned from the department column in the employees' table to include only employees from the 'Finance' department. Replace X with the appropriate column name and Y with the appropriate value to complete the filter:
 ![1545b044e75rf8iyfgk703r6t7g_3](https://github.com/Char-Hunt/Data-Retrievals/assets/138831832/dccf37f7-b5fc-4454-b6a2-db17ab9c14fc)
