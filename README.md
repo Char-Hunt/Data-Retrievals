@@ -4,7 +4,7 @@
 As a security analyst, the ability to make better queries to retrieve specific pieces of data can help you find the security-related information you need more efficiently.
 In this lab activity, I applied basic filters to SQL queries to retrieve information from a MariaDB database.
 MariaDB is a popular open-source relational database that is compatible with MySQL.
-This activity provides me with a great opportunity to apply what I’ve learned and add filters to SQL queries.
+This activity provided me with a great opportunity to apply what I’ve learned and add filters to SQL queries.
 
 >_Note: The terms row and record are used interchangeably in this lab activity and have the same meaning._
 ## Lab Objective
