@@ -1,4 +1,4 @@
-# Filter a SQL Query
+# SQL Query Filtering
 ## Lab Purpose:
 
 As a security analyst, the ability to make better queries to retrieve specific pieces of data can help you find the security-related information you need more efficiently.
